@@ -3,25 +3,17 @@ print(not True)
 print(not False)
 
 # The or Operation
-"""
->>> True or True
-True
->>> True or False
-True
->>> False or False
-False
->>> False or True
-True
-"""
+ta = True
+tb = True
+fa = False
+fb = False
+print(ta or tb)
+print(ta or fb)
+print(fa or fb)
+print(fa or tb)
 
 # The and Operation
-"""
->>> True and True
-True
->>> True and False
-False
->>> False and False
-False
->>> False and True
-False
-"""
+print(ta and tb)
+print(ta and fb)
+print(fa and fb)
+print(fa and tb)
