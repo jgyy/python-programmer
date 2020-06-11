@@ -33,14 +33,25 @@ def fil(x):
         return True
 
 def fib(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
+    nine = {
+        0: 0,
+        1: 1,
+        2: 1,
+        3: 2,
+        4: 3,
+        5: 5,
+        6: 8,
+        7: 13,
+        8: 21,
+        9: 34,
+    }
+    number = nine.get(n, "")
+    if type(number) == int:
+        return number
 
     return fib(n - 2) + fib(n - 1)
 
 item_to_calculate = int(input("What Fibonnaci item would you like to calculate? "))
 
-print(fib_exp(item_to_calculate))
+# print(fib_exp(item_to_calculate))
 print(fib(item_to_calculate))
