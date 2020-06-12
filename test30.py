@@ -67,4 +67,12 @@ print(all_names)
 
 # There are no block comments in Python.
 
+# What is the output of this code?
+pair1 = ('a', 'b', 'c')
+pair2 = ('d', 'e', 'f')
+index = 0
 
+while index < len(pair1):
+    for item in pair2:
+        print(pair2[index], item)
+    index += 1
