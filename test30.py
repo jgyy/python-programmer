@@ -35,3 +35,13 @@ def double_values(list1):
 
 first_list = [1, 2, 3, 4]
 print(double_values(first_list))
+
+# Which of these print lines would print the expected output, given the input values:
+# Input Values: "1600 Pennsylvania Ave NW", "Washington", "DC"
+# Expected Output: 1600 Pennsylvania Ave NW, Washington, DC
+print("1600 Pennsylvania Ave NW", "Washington", "DC", sep=', ')
+
+# What would be the value of names after running this code?
+names = ['Alice', 'Bob', 'Lance', 'Mike']
+names = names[::-1]
+print(names)
