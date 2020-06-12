@@ -97,3 +97,10 @@ def double_values(list1):
 
 first_list = [1, 2, 3, 4]
 print(" ".join(double_values(first_list)))
+
+# What argument to the hello function would lead to the expected output?
+# Expected Output: Howdy, William
+def hello(name, salutation):
+    print(salutation, name, sep=", ")
+
+hello(name="William", salutation="Howdy")
