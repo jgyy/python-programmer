@@ -64,3 +64,7 @@ names = ['Alice', 'Bob', 'Lance', 'Mike']
 all_names = names
 names.remove('Bob')
 print(all_names)
+
+# There are no block comments in Python.
+
+
