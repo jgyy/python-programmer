@@ -87,3 +87,13 @@ elif letter <= 'a':
     print("Third")
 else:
     print("Fourth")
+
+# What is the output of the following code?
+def double_values(list1):
+    doubles = []
+    for num in list1:
+        doubles.append(str(num * 2))
+    return doubles
+
+first_list = [1, 2, 3, 4]
+print(" ".join(double_values(first_list)))
