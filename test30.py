@@ -157,3 +157,8 @@ print(num2)
 ages = {'Keith': 30, 'Levi': 25, 'John': 20}
 del ages['Keith']
 print(ages)
+
+# What would be the output of the following code?
+ages = {'Keith': 30, 'Levi': 25, 'John': 20}
+age = ages.get('Kevin')
+print(age)
