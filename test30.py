@@ -104,3 +104,6 @@ def hello(name, salutation):
     print(salutation, name, sep=", ")
 
 hello(name="William", salutation="Howdy")
+
+# What does the following code evaluate to?
+print(3 ** 3)
