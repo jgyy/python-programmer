@@ -143,3 +143,10 @@ if letter < 'a':
     print("Third")
 else:
     print("Fourth")
+
+# What is the value of num2 after executing this code?
+num = 12
+num2 = num
+num = num + 1
+num2 = num2 / 2
+print(num2)
