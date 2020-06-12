@@ -132,3 +132,14 @@ while num <= 6:
     if num % 3 == 0:
         print(num)
     num = num + 1
+
+# What is the output of this code?
+letter = 'c'
+if letter < 'e':
+    print("First")
+if letter == 'b' or letter >= 'c':
+    print("Second")
+if letter < 'a':
+    print("Third")
+else:
+    print("Fourth")
