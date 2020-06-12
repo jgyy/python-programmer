@@ -59,4 +59,8 @@ print(val)
 
 # '%' is the modulus operator.
 
-
+# What would be the value of all_names after running this code?
+names = ['Alice', 'Bob', 'Lance', 'Mike']
+all_names = names
+names.remove('Bob')
+print(all_names)
