@@ -118,3 +118,10 @@ print(3 ** 3)
 def add_five(num1, num2=5):
     return num1 + 5
 print(add_five(1, 2))
+
+# What argument to the hello function would lead to the expected output?
+# Expected Output: Howdy, Oscar!
+def hello(name, salutation):
+    print(salutation, name, sep=", ")
+
+hello(salutation="Howdy",name="Oscar!")
