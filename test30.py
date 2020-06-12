@@ -150,3 +150,10 @@ num2 = num
 num = num + 1
 num2 = num2 / 2
 print(num2)
+
+# Which of the following lines would modify the ages dictionary to match the expected value?
+# Expected Value: {'Levi': 25, 'John': 20}
+# Initial Dictionary:
+ages = {'Keith': 30, 'Levi': 25, 'John': 20}
+del ages['Keith']
+print(ages)
