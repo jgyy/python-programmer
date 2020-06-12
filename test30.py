@@ -76,3 +76,14 @@ while index < len(pair1):
     for item in pair2:
         print(pair2[index], item)
     index += 1
+
+# What is the output of this code?
+letter = 'a'
+if letter < 'b':
+    print("First")
+if letter == 'b' or letter > 'c':
+    print("Second")
+elif letter <= 'a':
+    print("Third")
+else:
+    print("Fourth")
