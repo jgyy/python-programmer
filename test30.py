@@ -107,3 +107,9 @@ hello(name="William", salutation="Howdy")
 
 # What does the following code evaluate to?
 print(3 ** 3)
+
+# Which of these statements is true?
+# The yield keyword is used to state that a function is a generator.
+# A function is created using the def keyword.
+
+
