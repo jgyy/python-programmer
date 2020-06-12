@@ -19,3 +19,10 @@ names.append('Brock')
 print(all_names)
 
 # '//' is the floor division operator.
+
+# What is the output of this code?
+num = 1
+while num <= 6:
+    if num % 3 == 0:
+        print(num)
+    num += 1
