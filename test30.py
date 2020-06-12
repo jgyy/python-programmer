@@ -125,3 +125,10 @@ def hello(name, salutation):
     print(salutation, name, sep=", ")
 
 hello(salutation="Howdy",name="Oscar!")
+
+# What is the output of this code?
+num = 1
+while num <= 6:
+    if num % 3 == 0:
+        print(num)
+    num = num + 1
