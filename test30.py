@@ -162,3 +162,12 @@ print(ages)
 ages = {'Keith': 30, 'Levi': 25, 'John': 20}
 age = ages.get('Kevin')
 print(age)
+
+# What is the output of this code?
+num = 10
+if num > 20 or num >= 10:
+    print("First")
+elif num <= 10:
+    print("Second")
+else:
+    print("Third")
