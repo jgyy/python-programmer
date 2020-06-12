@@ -45,3 +45,18 @@ print("1600 Pennsylvania Ave NW", "Washington", "DC", sep=', ')
 names = ['Alice', 'Bob', 'Lance', 'Mike']
 names = names[::-1]
 print(names)
+
+# What is the output of this code?
+num1 = 30
+num2 = 15
+print(num2 == num1)
+
+# What code would result in the expected output when inserted into the commented line?
+# Expected Output: False
+values = ['Kevin Bacon', 60, '555-555-5555', False]
+val = not values[1]
+print(val)
+
+# '%' is the modulus operator.
+
+
