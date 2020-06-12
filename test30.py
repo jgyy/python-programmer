@@ -113,3 +113,8 @@ print(3 ** 3)
 # A function is created using the def keyword.
 
 # True is a Boolean.
+
+# What is the output of the following code?
+def add_five(num1, num2=5):
+    return num1 + 5
+print(add_five(1, 2))
