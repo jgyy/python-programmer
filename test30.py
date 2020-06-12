@@ -17,3 +17,5 @@ names = ['Alice', 'Lance', 'Bob', 'Mike']
 all_names = names
 names.append('Brock')
 print(all_names)
+
+# '//' is the floor division operator.
