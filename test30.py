@@ -112,4 +112,4 @@ print(3 ** 3)
 # The yield keyword is used to state that a function is a generator.
 # A function is created using the def keyword.
 
-
+# True is a Boolean.
