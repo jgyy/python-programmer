@@ -26,3 +26,12 @@ while num <= 6:
     if num % 3 == 0:
         print(num)
     num += 1
+
+# What is the output of the following code?
+def double_values(list1):
+    doubles = []
+    for num in list1:
+        doubles.append(num * 2)
+
+first_list = [1, 2, 3, 4]
+print(double_values(first_list))
